@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>000lbh</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div>
+  <div>
+    <table width="30%">
+      <tr style="background:#FFE400; ">
+        <td><a href="/index.html">Home</a></td>
+        <td><a href="/topics.html">Topics</a></td>
+        <td><a href="/blogs.html">Blogs</a></td>
+      </tr>
+    </table>
+  </div>
+  <div style="text-align: center">
+    <h2><!-- TemplateBeginEditable name="Title" -->Welcome to 000lbh<!-- TemplateEndEditable --></h2>
+  </div>
+  <div>
+  <!-- TemplateBeginEditable name="RU" -->
+  <h3>Recently Update</h3>
+  <p>1.&nbsp;New site created.</p>
+  </div>
+  <!-- TemplateEndEditable --> </div>
+</body>
+</html>

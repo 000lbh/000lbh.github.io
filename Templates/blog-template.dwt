@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>000lbh</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div>
+  <div>
+    <table width="30%">
+      <tr style="background:#FFE400; ">
+        <td><a href="/index.html">Home</a></td>
+        <td><a href="/topics.html">Topics</a></td>
+        <td><a href="/blogs.html">Blogs</a></td>
+      </tr>
+    </table>
+  </div>
+  <div style="text-align: center">
+    <h2><!-- InstanceBeginEditable name="Title" -->Blog Title<!-- InstanceEndEditable --></h2>
+  </div>
+  <div>
+  <!-- InstanceBeginEditable name="RU" -->
+  <p>Last Update: <!-- TemplateBeginEditable name="Update Time" -->2024.02.18<!-- TemplateEndEditable --></p>
+  <p> Other Language: <!-- TemplateBeginEditable name="Language" -->中文<!-- TemplateEndEditable --> </p>
+  <hr />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+  <!-- TemplateBeginEditable name="URL" --><script> const url = '/markdown/test.md';</script> <!-- TemplateEndEditable --> 
+  <script>
+		  const http = new XMLHttpRequest();
+		  http.open("GET", url);
+		  http.send();
+		  http.onreadystatechange = function() {
+			  if (this.readyState == 4 && this.status == 200)
+                  document.getElementById("markdown-content").innerHTML = marked.parse(http.responseText);
+			  else
+				  document.getElementById("markdown-content").innerHTML = "Oops, get markdown failed. Status code: " + this.status;
+		  };
+	  </script>
+  <div id="markdown-content"></div>
+  </div>
+  <!-- InstanceEndEditable --> </div>
+</body>
+<!-- InstanceEnd -->
+</html>
